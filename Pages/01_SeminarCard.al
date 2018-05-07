@@ -72,29 +72,37 @@ page 123456701 "Seminar Card"
                 }
             }
         }
-        area(FactBoxes)
-        {
-            systempart("Links";Links)
-            {}
-            systempart("Notes";Notes)
-            {}
-
-        }
     }
 
     actions
     {
-        area(processing)
+        area(Navigation)
         {
-            action(ActionName)
+            group(Seminar)
             {
-                trigger OnAction();
-                begin
-                end;
+                action("Co&mments")
+                {
+                    RunObject=page "Seminar Comment Sheet";
+
+                    Image = Comment;
+                    Promoted = true;
+                    PromotedIsBig = true;
+                    PromotedOnly = true;
+
+
+                }
+
             }
+          
         }
     }
     
-    var
-        myInt : Integer;
+   area(FactBoxes)
+    {
+        systempart("Links";Links)
+        {}
+        systempart("Notes";Notes)
+        {}
+
+    }
 }
