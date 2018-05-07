@@ -46,6 +46,13 @@ page 123456700 "Seminar Setup"
         }
     }
     
+
+    trigger OnOpenPage();
+    begin
+        if not rec.Get then
+            rec.INSERT;
+
+    end;
     var
         myInt : Integer;
 }
