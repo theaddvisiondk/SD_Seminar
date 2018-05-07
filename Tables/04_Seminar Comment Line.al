@@ -2,6 +2,8 @@ table 123456704 "Seminar Comment Line"
 {
     Caption='Seminar Comment Line';
     LookupPageId = "Seminar Comment List";
+    DrillDownPageID ="Seminar Comment List";
+
 
     fields
     {
