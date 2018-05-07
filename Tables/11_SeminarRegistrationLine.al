@@ -4,7 +4,8 @@ table 123456711 "Seminar Registration Line"
     //   Chapter 6 - Lab 1-5
     //     - Created new table
 
-
+    Caption = 'Seminar Registration Line';
+    
     fields
     {
         field(1;"Document No.";Code[20])

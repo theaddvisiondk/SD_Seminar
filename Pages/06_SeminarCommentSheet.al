@@ -3,6 +3,7 @@ page 123456706 "Seminar Comment Sheet"
     Caption = 'Seminar Comment Sheet';
     PageType = List;
     SourceTable = "Seminar Comment Line";
+    
 
     layout
     {
