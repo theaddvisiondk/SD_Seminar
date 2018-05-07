@@ -74,6 +74,14 @@ page 123456701 "Seminar Card"
         }
     }
 
+   area(FactBoxes)
+    {
+        systempart("Links";Links)
+        {}
+        systempart("Notes";Notes)
+        {}
+
+    }
     actions
     {
         area(Navigation)
@@ -97,12 +105,4 @@ page 123456701 "Seminar Card"
         }
     }
     
-   area(FactBoxes)
-    {
-        systempart("Links";Links)
-        {}
-        systempart("Notes";Notes)
-        {}
-
-    }
 }
