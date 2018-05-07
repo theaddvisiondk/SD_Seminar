@@ -1,34 +1,38 @@
-pageextension 123456701 CSD_ResourceListExt extends "Resource List"
+pageextension 123456700 CSD_ResourceCardExt extends "Resource Card"
 {
     layout
     {
-        modify(Type)
-        {
-            Visible = ShowType;
-        }
-        addafter(Type)
+        addlast(General)
         {
             field("Resource Type"; "CSD_Resource Type")
             {
             }
-            field("Maximum Participants"; "CSD_Maximum Participants")
+            field("Quantity Per Day"; "CSD_Quantity Per Day")
+            {
+            }
+        }
+
+        addafter("Personal Data")
+        {
+
+            group("Room")
             {
                 Visible = ShowMaxField;
+                field("Maximum Participants"; "CSD_Maximum Participants")
+                {
+                    
+                }
             }
         }
     }
-    
+
     trigger OnOpenPage();
     begin
-        rec.FilterGroup(3);
-        ShowType := (GetFilter(Type)='');
-        ShowMaxField := (GetFilter(Type)=format(Type::machine));
-        rec.FilterGroup(0);
+        ShowMaxField := (Type = Type::Machine);
+        CurrPage.Update(false);
     end;
 
     var
         [InDataSet]
-        ShowType : Boolean;
-        [InDataSet]
-        ShowMaxField : Boolean; 
+        ShowMaxField: Boolean;
 }
