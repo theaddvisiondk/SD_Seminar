@@ -3,7 +3,7 @@ page 123456700 "Seminar Setup"
     PageType = Card;
     SourceTable = "Seminar Setup";
     Caption = 'Seminar Setup';
-    InsertAllowed = false;
+    InsertAllowed = true;
     DeleteAllowed = false;
     UsageCategory = Administration;
 

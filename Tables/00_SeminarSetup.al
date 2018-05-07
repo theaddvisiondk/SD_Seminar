@@ -34,4 +34,8 @@ table 123456700 "Seminar Setup"
             Clustered = true;
         }
     }
+
+    
+    
+
 }
