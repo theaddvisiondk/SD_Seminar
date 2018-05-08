@@ -10,7 +10,7 @@
             "authentication": "Windows",
 
             //"startupObjectId": 50100
-         //   "schemaUpdateMode": "Recreate"
+            //"schemaUpdateMode": "Recreate"
         }
     ]
 }
