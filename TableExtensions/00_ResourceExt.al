@@ -26,5 +26,7 @@ tableextension 123456700 CSD_ResourceExt extends Resource
         {
             Caption = 'Quantity Per Day';
         }        
+       
+      
     }
 }
