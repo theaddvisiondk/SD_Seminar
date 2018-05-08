@@ -8,7 +8,6 @@ codeunit 123456702 SeminarRegPrinted
     begin
         Find;
         "No. Printed" += 1; 
-        
         Modify;
         Commit;
     end;

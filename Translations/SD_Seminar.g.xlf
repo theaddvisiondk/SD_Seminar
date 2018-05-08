@@ -113,6 +113,11 @@
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">Page - Action</note>
         </trans-unit>
+        <trans-unit id="Page 3319032050 - Action 1344672713 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Print</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Page - Action</note>
+        </trans-unit>
         <trans-unit id="Page 3800278800 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
           <source>Seminar Registration List</source>
           <note from="Developer" annotates="general" priority="2" />
@@ -138,6 +143,11 @@
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">Page - Action</note>
         </trans-unit>
+        <trans-unit id="Page 3800278800 - Action 1344672713 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Print</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Page - Action</note>
+        </trans-unit>
         <trans-unit id="Page 2014763884 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
           <source>Seminar Details</source>
           <note from="Developer" annotates="general" priority="2" />
@@ -157,6 +167,21 @@
           <source>Seminar Registers</source>
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">Page - Page</note>
+        </trans-unit>
+        <trans-unit id="Page 903716995 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Report Selection</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Page - Page</note>
+        </trans-unit>
+        <trans-unit id="Page 903716995 - Control 887890843 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Usage</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Page - Control</note>
+        </trans-unit>
+        <trans-unit id="Page 903716995 - Control 887890843 - Property 62802879" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Registration</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Page - Control</note>
         </trans-unit>
         <trans-unit id="Page 3075349434 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
           <source>Seminar Charges</source>
@@ -227,6 +252,16 @@
           <source>Posted Seminar Charges</source>
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">Page - Page</note>
+        </trans-unit>
+        <trans-unit id="Report 3286216710 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Reg.- Participant List</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report - Report</note>
+        </trans-unit>
+        <trans-unit id="Report 3286216710 - ReportLabel 300997005" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Registration Header</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report - Report Label</note>
         </trans-unit>
         <trans-unit id="TableExtension 755447671 - Field 1905730080 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
           <source>Seminar</source>
@@ -418,6 +453,36 @@
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
         </trans-unit>
+        <trans-unit id="Table 2727000910 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Report Selections</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table - Table</note>
+        </trans-unit>
+        <trans-unit id="Table 2727000910 - Field 1510562767 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Usage</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
+        </trans-unit>
+        <trans-unit id="Table 2727000910 - Field 1510562767 - Property 62802879" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Registration</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
+        </trans-unit>
+        <trans-unit id="Table 2727000910 - Field 4154341761 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sequence</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
+        </trans-unit>
+        <trans-unit id="Table 2727000910 - Field 1272245069 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report ID</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
+        </trans-unit>
+        <trans-unit id="Table 2727000910 - Field 4101026147 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report Name</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
+        </trans-unit>
         <trans-unit id="Table 2143111931 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
           <source>Seminar Registration Header</source>
           <note from="Developer" annotates="general" priority="2" />
@@ -565,6 +630,11 @@
         </trans-unit>
         <trans-unit id="Table 2143111931 - Field 514695969 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting No.</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
+        </trans-unit>
+        <trans-unit id="Table 2143111931 - Field 2682724073 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Printed</source>
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
         </trans-unit>

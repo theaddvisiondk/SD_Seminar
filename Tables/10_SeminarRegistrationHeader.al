@@ -230,8 +230,6 @@ table 123456710 "Seminar Registration Header"
             Caption = 'VAT Prod. Posting Group';
             TableRelation = "VAT Product Posting Group".Code;
         }
-
-       
         Field(22; Comment; Boolean)
         {
             Caption = 'Comment';
@@ -300,8 +298,6 @@ table 123456710 "Seminar Registration Header"
             Caption='No. Printed';
             Editable=false;
         }
-
-        
     }
 
     keys
