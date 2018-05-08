@@ -94,7 +94,7 @@ page 123456701 "Seminar Card"
                     ShortcutKey="Ctrl+F7";
                     Image=WarrantyLedger;
                 }
-        
+                // >> Lab 8-2
                 action("&Registrations")
                 {
                     RunObject=page "Seminar Registration List";
@@ -103,10 +103,10 @@ page 123456701 "Seminar Card"
                     Promoted=true;
                     PromotedCategory=Process;
                 }
-        
+                // << Lab 8-2
             }
         }
-        
+        // >> Lab 8-2
         area(Processing)
         {
             action("Seminar Registration")
@@ -120,6 +120,6 @@ page 123456701 "Seminar Card"
 
             }
         }
-        
+        // << Lab 8-2
     }
 }

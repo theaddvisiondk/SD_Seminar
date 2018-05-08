@@ -253,6 +253,76 @@
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">Page - Page</note>
         </trans-unit>
+        <trans-unit id="Report 2741080915 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Seminar Invoices</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report - Report</note>
+        </trans-unit>
+        <trans-unit id="Report 2741080915 - Control 2346885236 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">RequestPage - Control</note>
+        </trans-unit>
+        <trans-unit id="Report 2741080915 - Control 2878599854 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">RequestPage - Control</note>
+        </trans-unit>
+        <trans-unit id="Report 2741080915 - Control 3672432318 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>document Date</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">RequestPage - Control</note>
+        </trans-unit>
+        <trans-unit id="Report 2741080915 - Control 15388435 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calc. Inv. Discount</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">RequestPage - Control</note>
+        </trans-unit>
+        <trans-unit id="Report 2741080915 - Control 357831326 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post Invoices</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">RequestPage - Control</note>
+        </trans-unit>
+        <trans-unit id="Report 2741080915 - NamedType 2476940767" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please enter the posting date.</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report - Label</note>
+        </trans-unit>
+        <trans-unit id="Report 2741080915 - NamedType 3114637384" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please enter the document date.</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report - Label</note>
+        </trans-unit>
+        <trans-unit id="Report 2741080915 - NamedType 3752334001" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Creating Seminar Invoices...\\</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report - Label</note>
+        </trans-unit>
+        <trans-unit id="Report 2741080915 - NamedType 95063322" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.      #1##########\</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report - Label</note>
+        </trans-unit>
+        <trans-unit id="Report 2741080915 - NamedType 732759939" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Registration No.   #2##########\</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report - Label</note>
+        </trans-unit>
+        <trans-unit id="Report 2741080915 - NamedType 1370456556" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The number of invoice(s) created is %1.</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report - Label</note>
+        </trans-unit>
+        <trans-unit id="Report 2741080915 - NamedType 2008153173" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>not all the invoices were posted. A total of %1 invoices were not posted.</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report - Label</note>
+        </trans-unit>
+        <trans-unit id="Report 2741080915 - NamedType 2645849790" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is nothing to invoice.</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report - Label</note>
+        </trans-unit>
         <trans-unit id="Report 3286216710 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
           <source>Seminar Reg.- Participant List</source>
           <note from="Developer" annotates="general" priority="2" />

@@ -148,6 +148,7 @@ codeunit 123456700 "Seminar-Post"
         with SeminarRegHeader do
         begin
             Resource.TestField("CSD_Quantity Per Day");
+            Resource.Testfield("CSD_Quantity Per Day");
             ResJnlLine.Init;
             ResJnlLine."Entry Type" := ResJnlLine."Entry Type"::Usage;
             ResJnlLine."Document No." := PstdSeminarRegHeader."No.";

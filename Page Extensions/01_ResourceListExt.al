@@ -1,4 +1,11 @@
 pageextension 123456701 CSD_ResourceListExt extends "Resource List"
+// CSD1.00 - 2018-01-01 - D. E. Veloper
+// Chapter 5 - Lab 1-3
+// Changed property on the Type field
+// Added new fields:
+// - Internal/External
+// - Maximum Participants
+// Added code to OnOpenPage trigger
 
 {
     layout

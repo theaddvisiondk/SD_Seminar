@@ -1,9 +1,10 @@
 page 123456706 "Seminar Comment Sheet"
+// CSD1.00 - 2018-01-01 - D. E. Veloper
+// Chapter 5 - Lab 2-2
 {
     Caption = 'Seminar Comment Sheet';
     PageType = List;
     SourceTable = "Seminar Comment Line";
-    
 
     layout
     {
@@ -13,34 +14,14 @@ page 123456706 "Seminar Comment Sheet"
             {
                 field(Date;Date)
                 {
-                    
                 }
                 field(Code;Code)
                 {
                     Visible=false;
                 }
-
                 field(Comment;Comment)
-                {
-
+                {    
                 }
-
-            }
-        }
-        area(factboxes)
-        {
-        }
-    }
-
-    actions
-    {
-        area(processing)
-        {
-            action(ActionName)
-            {
-                trigger OnAction();
-                begin
-                end;
             }
         }
     }

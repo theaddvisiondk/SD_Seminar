@@ -1,17 +1,20 @@
 tableextension 123456700 CSD_ResourceExt extends Resource
+// CSD1.00 - 2012-06-15 - D. E. Veloper
+// Chapter 5 - Lab 1-1
+// -	Added new fields:
+// -	Internal/External
+// -	Maximum Participants
 {
     fields
     {
         modify("Profit %")
         {
+        
             trigger OnAfterValidate()
-            
             begin
                 Rec.TestField("Unit Cost");
-            End;
-            
+            end;
         }
-
         field(123456701;"CSD_Resource Type";Option)
         {
             Caption = 'Resource Type';
@@ -26,7 +29,7 @@ tableextension 123456700 CSD_ResourceExt extends Resource
         {
             Caption = 'Quantity Per Day';
         }        
-       
-      
     }
 }
+
+
